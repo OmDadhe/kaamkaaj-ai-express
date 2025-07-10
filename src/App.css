@@ -1,0 +1,21 @@
+/* Modern SaaS styles for KaamKaaj AI */
+
+.font-inter {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.font-code {
+  font-family: 'Source Code Pro', Monaco, monospace;
+}
+
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default margins and ensure full height */
+#root {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
